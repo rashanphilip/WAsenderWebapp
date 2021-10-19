@@ -8,7 +8,9 @@ function Footer() {
         <a target="_blank" rel="noopener noreferrer" href="https://rizad.ml/">
           Muhammed Rizad
         </a>
-        &nbsp;
+        &nbsp; |&nbsp;{' '}
+        <a href={`${gitRepo}/blob/master/LICENSE`} target="_blank" rel="noopener noreferrer">
+          License
         </a>
       </p>
     </footer>
